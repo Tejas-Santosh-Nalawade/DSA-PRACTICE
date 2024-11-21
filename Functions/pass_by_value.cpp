@@ -1,7 +1,8 @@
 # include<iostream>
 using namespace std;
 
-int sum(int a, int b) // Pass By Value means only value is passed 
+ // Pass By Value means only value is passed copy is creted in the memory and only chane in function copy not in main function memory copy
+int sum(int a, int b)
 {
     a=a+5;   // 15
     b=b+10;  // 15
